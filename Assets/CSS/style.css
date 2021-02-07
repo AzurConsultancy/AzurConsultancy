@@ -346,5 +346,17 @@ iframe:hover{
 }
 =======
 
+/* for the calculate chance */
+.card-file{
+    width: 60%;
+}
+.calculat_header{
+    align-items: center;
+}
+.displayValue{
+    border: 2px solid rgb(41, 22, 22);
+    border-radius: 4;
+    font-size: 3rem;
+}
 
 >>>>>>> bbcf804... I have added the index part of the website
