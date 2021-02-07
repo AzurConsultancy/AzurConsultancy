@@ -191,6 +191,10 @@ padding-bottom: 0;
 .pra{
     visibility: hidden;
 }
+.freeCon{
+   color: #0c7a43;
+   font-size: 2rem;
+}
 
 /* for the footer */
 .footer{
