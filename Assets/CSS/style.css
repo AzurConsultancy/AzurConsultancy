@@ -348,14 +348,14 @@ iframe:hover{
 
 /* for the calculate chance */
 .card-file{
-    width: 60%;
+    width: 100%;
 }
 
 .calculat_header{
     align-items: center;
 }
 .displayValue{
-    border: 2px solid rgb(41, 22, 22);
+    border: 0.1rem solid rgb(228, 209, 209);
     border-radius: 4;
     font-size: 3rem;
 }

@@ -115,30 +115,35 @@
     <hr class="text-black" >
    
     <!-- below the navbar this is the body -->
-    <div class="container-fluid">
+    <div class="container-fluid my-5">
         <div class="header calculat_header">
             <h3 class="text-center my-5">Calculate your chances of joining the best universities based on your status.</h3>
             <hr>
-            <div class="upper-content text-center">
-                <div class="card card-file ">
-                    <div class="card-body">
-                      <h5 class="card-title my-5">Short discription how to do the calculation</h5>
-                      <h6 class="card-subtitle mb-2 text-muted">Here you can see the the probablity of getting the top universities</h6>
-                      <p class="card-text">In order to see the chance please fill the form acording to the text. In the first field please 
-                          fill your grade 12 result and in the second field choose your gender and finally in the choose weather you are 
-                          disable or not. After filling all the information needed to see the probablity click on the submit button
-                      </p>
-                      <button class="btn btn-primary text-center">See More</button>
-                    </div>
-                  </div>
-            </div>
+            <div class="row">
+              <div class="col-md-1 col-sm-12"></div>
+              <div class="col-md-9 col-sm-12">
+               <div class="upper-content text-center">
+                 <div class="card card-file ">
+                     <div class="card-body">
+                       <h5 class="card-title my-5">Short discription how to do the calculation</h5>
+                       <h6 class="card-subtitle mb-2 text-muted">Here you can see the the probablity of getting the top universities</h6>
+                       <p class="card-text">In order to see the chance please fill the form acording to the text. In the first field please 
+                           fill your grade 12 result and in the second field choose your gender and finally in the choose weather you are 
+                           disable or not. After filling all the information needed to see the probablity click on the submit button
+                       </p>
+                       <button class="btn btn-primary text-center my-3 px-3">See More</button>
+                     </div>
+                   </div>
+                 </div>
+             </div>
+           </div>
         </div>
     </div>
     <!-- the calculate form and displayed content -->
     <div class="container-fluid">
         <div class="row">              
-            <div class="theForm col-7 col-xl-4 col-lg-6 col-md-5 col-sm-7 col-xm-7 
-            bg-dark p-5 text-success m-5">
+            <div class="theForm col-12 col-xl-4 col-lg-6 col-md-5 col-sm-12 col-xs-12
+            bg-dark p-5 text-success m-md-5">
             <form action="" class="needs-validation" id="submitForm" novalidate>
                 <div class="form-group my-3">
                     <label for="fname" class="m-2">Your grade 12 mark : </label>
@@ -164,7 +169,7 @@
               </div>
             </form>
             </div>
-            <div class="col-md-6 text-center m-5 text-success bg-white displayValue">
+            <div class="col-md-6 col-xs-12 ml-sm-0 text-center m-md-5 text-success bg-white displayValue">
                 <p class="demo">what</p>
             </div>
         </div>
