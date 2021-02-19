@@ -72,6 +72,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
             scienceUnder:"",
             sciencePost:"",
+            socialMark :"",
+            naturalMark:""
 
 
 
@@ -198,7 +200,10 @@ var scienceCourseUnder = ["Yes","Yes","Yes","Yes","Yes","Yes","Yes"," "," "," ",
 var scienceCoursePost = ["Yes","Yes "," Yes"," ","Yes","Yes","Yes","Yes"," "," "," ","Yes"," "
 ]
 
-
+var socialMarkList = ["500","495","495","490 ","450","430","453","410"," 400","400 "," "," "," "
+]   
+var naturalMarkList = ["550 ","520","530","510 ","450","430","400","420"," 480","390 "," "," "," "
+]   
 
 
 
@@ -262,7 +267,8 @@ var scienceCoursePost = ["Yes","Yes "," Yes"," ","Yes","Yes","Yes","Yes"," "," "
        addUniv.scienceUnder = scienceCourseUnder[index]
        addUniv.sciencePost = scienceCoursePost[index]   
 
-
+       addUniv.socialMark = socialMarkList[index]
+       addUniv.naturalMark = naturalMarkList[index]
 
 
 
@@ -330,6 +336,9 @@ var scienceCoursePost = ["Yes","Yes "," Yes"," ","Yes","Yes","Yes","Yes"," "," "
         // keypath is going to be the Indexes
         let objectStore = db.createObjectStore('univLists', { keyPath: 'id', autoIncrement: true });
         let objectStorePersonal = db.createObjectStore('personalList', { keyPath: 'id', autoIncrement: true });
+        let objectStoreQA = db.createObjectStore('questionAndanswer', { keyPath: 'id', autoIncrement: true });
+
+
 
 
         // createindex: 1) field name 2) keypath 3) options
@@ -346,6 +355,13 @@ var scienceCoursePost = ["Yes","Yes "," Yes"," ","Yes","Yes","Yes","Yes"," "," "
     objectStorePersonal.createIndex('univName', 'univName', { unique: false });
     objectStorePersonal.createIndex('acronym', 'acronym', { unique: false });
     objectStorePersonal.createIndex('town', 'town', { unique: false });
+
+    //Table for Question and Q  &  A
+    objectStoreQA.createIndex('question', 'question', { unique: false });
+    objectStoreQA.createIndex('user', 'user', { unique: false });
+
+
+
     
 
 
@@ -356,7 +372,7 @@ var scienceCoursePost = ["Yes","Yes "," Yes"," ","Yes","Yes","Yes","Yes"," "," "
 function displayCollegeListTop() {
         // clear the previous task list
        
-
+        var counter = 0
         // create the object store
         let objectStore = DB.transaction('univLists').objectStore('univLists');
 
@@ -367,7 +383,8 @@ function displayCollegeListTop() {
             if (cursor) {
 
                 add(cursor.value.id, cursor.value.univName,cursor.value.acronym,listTop);
-                cursor.continue();
+                counter++
+                if(counter <10) cursor.continue();
             }
         }
     }

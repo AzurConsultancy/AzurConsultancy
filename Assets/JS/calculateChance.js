@@ -1,13 +1,17 @@
 let DB;
 let order = 1;
+let markUpdated;
+const mark = document.querySelector('#mark'); //The UL
+const gender = document.querySelector('#gender'); //The UL
+const field = document.querySelector('#field'); //The UL
+const disability = document.querySelector('#disability'); //The UL
+const calculate = document.querySelector('#submit'); //The UL
+const univList = document.querySelector('.univList'); //The UL
 
-const listList = document.querySelector('.collectionRegion'); //The UL
-const titleBlock = document.querySelector('#title'); //The UL
+
+calculate.addEventListener('click',displayCollegeList);
 
 
-document.addEventListener('DOMContentLoaded', () => {
-
-    titleBlock.innerHTML = "Colleges for Science" 
 
     let univDB = indexedDB.open('univDB', 1);
 
@@ -25,36 +29,63 @@ document.addEventListener('DOMContentLoaded', () => {
         // save the result
         DB = univDB.result;
 
-
-        displayCollegeList();
     
-    
-}
+        }
 
+
+    function affirmative(){
+        if(gender.value === "Female"){ markUpdated = parseInt(mark.value) +10}
+        if(disability.value === "Disabled") markUpdated = parseInt(markUpdated) +30
+    }
 
 
     function displayCollegeList() {
-        // clear the previous task list
+        markUpdated = mark.value
+        affirmative();
+
+        var fTemp = ""   
+        univList.innerHTML = ""
+        order = 1
        
+
+       field === "Natural"? fTemp ="naturalMark" : fTemp ="socialMark" //Field chosen
 
         // create the object store
         let objectStore = DB.transaction('univLists').objectStore('univLists');
 
+        
         objectStore.openCursor().onsuccess = function(e) {
             // assign the current cursor
             let cursor = e.target.result;
 
-            if (cursor) {
-                if(cursor.value.scienceUnder.trim() === "Yes" ){
-
-                add(cursor.value.id, cursor.value.univName,cursor.value.acronym);
+            if(fTemp === "naturalMark"){
+                if (cursor) {
+                    if(cursor.value.naturalMark<= parseInt(markUpdated) ){
+    
+    
+                    add(cursor.value.id, cursor.value.univName,cursor.value.acronym);
+    
+                }
+                cursor.continue();
+    
+            }
+            }
+            else if(fTemp ==="socialMark"){
+                if (cursor) {
+                    if(cursor.value.socialMark<= parseInt(markUpdated) ){
+    
+    
+                    add(cursor.value.id, cursor.value.univName,cursor.value.acronym);
+    
+                }
+                cursor.continue();
+    
 
             }
-            cursor.continue();
 
-        }
+          
     }
-}
+}}
 
 
 
@@ -65,7 +96,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const divIdCol1 = document.createElement('div');
         const divIdCol2 = document.createElement('div');
         const divIdCol3 = document.createElement('div');
-        const divIdCol4 = document.createElement('div');
 
         
 
@@ -75,7 +105,6 @@ document.addEventListener('DOMContentLoaded', () => {
         divIdCol1.className = 'col-2';
         divIdCol2.className = 'col-8';
         divIdCol3.className = 'col-1';
-        divIdCol4.className = 'col-1';
 
     
 
@@ -89,15 +118,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
         `;
         divIdCol3.innerHTML = arg;
-        divIdCol4.innerHTML = rank;
 
     
         divIdRow.appendChild(divIdCol1);
         divIdRow.appendChild(divIdCol2);
         divIdRow.appendChild(divIdCol3);
-        divIdRow.appendChild(divIdCol4);
 
-        listList.appendChild(divIdRow);
+        univList.appendChild(divIdRow);
 
 
       
@@ -105,5 +132,5 @@ document.addEventListener('DOMContentLoaded', () => {
     }    
 
 
-});
+
 

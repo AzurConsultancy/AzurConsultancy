@@ -12,6 +12,8 @@ body{
     font-family: 'Hammersmith One', sans-serif;
 
 
+
+
 }
 .navbar ul li{
 
@@ -292,10 +294,59 @@ iframe:hover{
 }
 /*CollegeList*/
 
-.img-fluid {
+#listImg {
+    max-height: 200px;
+}
+#cover {
     max-height: 200px;
 }
 .header{
-    font-family: 'Barlow', sans-serif;
     font-weight: 600;
 }
+
+/*Q AND A*/
+
+.btn-qa{
+    float: right;
+    border-radius: 5%;
+}
+.btn-qa:hover{
+    float: right;
+    background-color: rgb(47, 137, 221);
+}
+.show-hide{
+    float: right;
+}
+.hide-content{
+    background-color: rgb(235, 231, 231);
+}
+
+/*Calculate chance CSS*/
+.card-file{
+    width: 100%;
+}
+.theForm{
+    font-size: 1.5rem;
+    background-color: #e6e1e1;
+    color: #1f1929;
+}
+
+
+
+.displayValue{
+    border: 0.1rem solid rgb(228, 209, 209);
+    border-radius: 4;
+    font-size: 1.5rem;
+}
+
+
+.description{
+    color: black;
+}
+#calList1{
+list-style: none;
+}
+#calList1 li {
+    padding-left: 1em;
+    text-indent: -1em;
+  }
