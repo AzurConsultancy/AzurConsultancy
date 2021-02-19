@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 @import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&display=swap');
@@ -32,16 +31,6 @@ padding-bottom: 0;
 
 
 
-=======
-/* for the drop downs */
-
-/*  univerity drop down */
-
-.menu-area{
-    position: static;
-}
-
->>>>>>> bbcf804... I have added the index part of the website
 #AAU{
     background-image: url("../Images/AddisAbabaUniversity.jpeg");
     background-size: cover;
@@ -65,7 +54,6 @@ padding-bottom: 0;
 }
 /* ellipsis */
 
-<<<<<<< HEAD
 
 #logoinBtn{
     width: min-content;
@@ -84,20 +72,11 @@ padding-bottom: 0;
     font-size: 22px;
 }
 
-=======
-#loginBtn:hover{
-    background-color:rgb(167, 165, 159);
-    border: none;
-}
-
-
->>>>>>> bbcf804... I have added the index part of the website
 .dropdown-toggle::after {
     border: none!important;
     font-family: "Font Awesome 5 Free"; font-weight: 400; content: " ᨆ";
     vertical-align: 0; /* to center vertically */
   }
-<<<<<<< HEAD
 #ellipsis::after {
     border: none!important;
     font-family: "Font Awesome 5 Free"; font-weight: 400; content: " ";
@@ -107,8 +86,6 @@ padding-bottom: 0;
  
 
 
-=======
->>>>>>> bbcf804... I have added the index part of the website
 
 /* for the nav part */
 .dropdown:hover>.dropdown-menu{
@@ -146,12 +123,6 @@ padding-bottom: 0;
     color: #000000;
 }
 
-<<<<<<< HEAD
-=======
-#learnHow:hover{
-    color: #9c81c7 !important;
-}
->>>>>>> bbcf804... I have added the index part of the website
 
 
 
@@ -165,14 +136,7 @@ padding-bottom: 0;
 .inner-cards{
     background-color: #ffffff;
 }
-<<<<<<< HEAD
 
-=======
-#img1{
-    width: 40px;
-    height: 30px;
-}
->>>>>>> bbcf804... I have added the index part of the website
 .addis_card{
     font-family: 'Source Code Pro', monospace;
     color: rgb(66, 42, 71) !important;
@@ -190,10 +154,6 @@ padding-bottom: 0;
 }
 .pra{
     visibility: hidden;
-}
-.freeCon{
-   color: #0c7a43;
-   font-size: 2rem;
 }
 
 /* for the footer */
@@ -222,15 +182,11 @@ a{
 }
 
 
-<<<<<<< HEAD
 
 /* the blog */
 
 
 
-=======
-/* the blog */
->>>>>>> bbcf804... I have added the index part of the website
 .univ-container{
     background-color: rgb(241, 239, 239);
 }
@@ -334,7 +290,6 @@ iframe:hover{
 .hide-content{
     background-color: rgb(235, 231, 231);
 }
-<<<<<<< HEAD
 /*CollegeList*/
 
 .img-fluid {
@@ -344,20 +299,3 @@ iframe:hover{
     font-family: 'Barlow', sans-serif;
     font-weight: 600;
 }
-=======
-
-/* for the calculate chance */
-.card-file{
-    width: 100%;
-}
-
-.calculat_header{
-    align-items: center;
-}
-.displayValue{
-    border: 0.1rem solid rgb(228, 209, 209);
-    border-radius: 4;
-    font-size: 3rem;
-}
-
->>>>>>> bbcf804... I have added the index part of the website
