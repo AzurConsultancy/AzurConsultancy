@@ -10,16 +10,29 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Hammersmith One', sans-serif;
+    background-color: rgb(231, 231, 230);
 
 
 
 
 }
+
 .navbar ul li{
 
 padding-right: 20px;
 padding-bottom: 0;
 
+}
+
+.navbar{
+    z-index: 1000;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#nav{
+margin-bottom: 100px;
 }
 .menu-area{
     position: static;
@@ -161,6 +174,10 @@ padding-bottom: 0;
 /* for the footer */
 .footer{
     margin-bottom: -999px; 
+}
+.fab:hover
+{
+color: rgb(100, 197, 113);
 }
 a{
     text-decoration: none;
@@ -305,6 +322,10 @@ iframe:hover{
 }
 
 /*Q AND A*/
+#individualQuestion{
+    background-color: rgb(206, 206, 212);
+    
+}
 
 .btn-qa{
     float: right;
@@ -349,4 +370,9 @@ list-style: none;
 #calList1 li {
     padding-left: 1em;
     text-indent: -1em;
+  }
+
+  /* comment section style */
+  textarea{
+      resize: none;
   }
