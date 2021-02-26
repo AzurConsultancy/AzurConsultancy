@@ -192,3 +192,199 @@ a{
 
 
 
+
+/*styling applied on the Blog page*/
+
+.menu-nav-bar{
+    position: static;
+}
+
+.drop-down-links{
+    position: absolute;
+    margin-left: 10rem;
+    background-color: #f4f6f8;
+    font-size: 0.9rem;
+    font-family: 'Times New Roman', Times, serif
+}
+
+#loginBtn:hover{
+    background-color:rgb(167, 165, 159);
+    border: none;
+}
+
+.dropdown:hover>.dropdown-menu{
+    display: block;
+  }
+.drop-down-links1{
+    background-color: #f4f6f8;
+}
+.drop-down-links1 a{
+    color: #474343;
+    font-size: 0.9rem;
+    font-family: 'Times New Roman', Times, serif
+}
+.drop-down-links1 a:hover{
+     color:#000000;
+}
+.drop-down-links a{
+    color: #474343;
+    font-size: 0.9rem;
+    font-family: 'Times New Roman', Times, serif
+}
+.drop-down-links a:hover{
+     color:#000000;
+}
+
+.drop-down-page a{
+    text-decoration: none;
+    color: #757272 !important;
+}
+.drop-down-page a:hover{
+    text-decoration: none;
+    color:#000000 !important;
+}
+.drop-header{
+    color: #000000;
+}
+
+.apply-btn:hover {
+    transform:scale(1.08,1.08);
+    -webkit-transform:scale(1.08,1.08);
+    -moz-transform:scale(1.08,1.08);
+    background-color: rgb(84, 180, 84) ;
+}
+
+.blog-univ img{
+    height: 5rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.blog-univ h6{
+    font-weight: bold;
+}
+
+.blog-univ p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.61);
+    line-height: 1.5rem;
+}
+
+.blog-univ a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.61);
+}
+
+.univ-container{
+    background-color: rgb(241, 239, 239);
+}
+
+
+.featured h6{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.featured img{
+    width: 90%;
+    height: 10rem;
+    color: black;
+    font-weight: bold;
+}
+.featured a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(95, 92, 92);
+}
+.featured a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    color: rgb(95, 92, 92);
+}
+
+iframe{
+    width: 100%;
+    height: 14rem;
+}
+hr{
+    color: rgb(156, 155, 155);
+}
+iframe:hover{
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transform:scale(1.06,1.06);
+    transition-delay: 0.0002ms;
+}
+
+
+.resources{
+    background-color: rgb(235, 231, 231);
+}
+.resources .btn{
+    border: 0.13em solid rgb(110, 108, 108);
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+}
+.resources .btn:hover{
+    border: 0.13em solid rgb(80, 150, 216);
+    background-color: #ddd;
+}
+.fas{
+    color: rgb(47, 137, 221);
+}
+
+
+/* for the footer */
+.footer{
+    margin-bottom: -999px; 
+}
+a{
+    text-decoration: none;
+
+}
+#email{
+    text-decoration: none;
+    color: #adaba1;
+}
+
+.footer_link{
+    font-size: 0.9rem;
+}
+.footer_link a{
+    text-decoration: none;
+    color: #e7f0e7 !important;
+}
+.footer_header{
+    color: rgb(167, 165, 159);
+    font-size: 1rem;
+}
+
+.btn-qa{
+    float: right;
+    border-radius: 5%;
+}
+.btn-qa:hover{
+    float: right;
+    background-color: rgb(47, 137, 221);
+}
+.show-hide{
+    float: right;
+}
+.hide-content{
+    background-color: rgb(235, 231, 231);
+}
+
+
+
+
+
+
+
+
+/*styling applied on the Question and Answer page*/
+
+
+
+
