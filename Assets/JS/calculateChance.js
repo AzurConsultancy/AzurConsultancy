@@ -50,7 +50,7 @@ calculate.addEventListener('click',displayCollegeList);
         objectStore.openCursor().onsuccess = function(e) {
             // assign the current cursor
             let cursor = e.target.result;
-            if(fTemp === "naturalMark"){
+            if(fTemp === "naturalMark" && fTemp >= 367){
                 if (cursor) {
                     if(cursor.value.naturalMark <= parseInt(markUpdated) ){
                     add(cursor.value.id, cursor.value.univName,cursor.value.acronym);
@@ -65,7 +65,7 @@ calculate.addEventListener('click',displayCollegeList);
                     add(cursor.value.id, cursor.value.univName,cursor.value.acronym);
                 }
                 cursor.continue();
-            }          
+            }                 
     }
 }}
     function add(rank,univName,arg){
