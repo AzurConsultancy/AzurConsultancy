@@ -384,6 +384,37 @@ a{
 
 
 /*styling applied on the Question and Answer page*/
+/*style on the inspire page*/
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    font-family: poppins;
+}
+.carousel-caption a{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 15px;
+    font-family: poppins;
+    display: inline-block;
+    color: rgb(10, 204, 36);
+}
+.carousel-file{
+    height: 25vh!important;
+}
+#carousel{
+    height: 45px;
+}
+.carousel-item img{
+    height: 24rem;
+    width: 20rem;
+}
+
+.body-section-02{
+    border-right: 5px rgb(255, 255, 255) solid;
+}
+
 
 
 
