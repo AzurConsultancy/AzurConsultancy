@@ -12,10 +12,10 @@
    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-   <link rel="stylesheet" href="Assets/CSS/style.css">
-   <link rel="stylesheet" type="text/css" href="./Assets/CSS/util.css">
+   <!-- <link rel="stylesheet" type="text/css" href="./Assets/CSS/util.css"> -->
    <link rel="stylesheet" type="text/css" href="./Assets/CSS/main.css">
-   <link rel="stylesheet" type="text/css" href="./Assets/CSS/map.css">
+   <!-- <link rel="stylesheet" type="text/css" href="./Assets/CSS/map.css"> -->
+   <link rel="stylesheet" href="Assets/CSS/style.css">
 
 
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
@@ -23,7 +23,7 @@
 
 
   </head> 
-  <body>
+  <body id="inspireBody">
   <nav class="navbar navbar-expand-lg navbar-light px-5" >
       <div class="container-fluid " >
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -98,7 +98,6 @@
         
         <li class="dropdown-item my-2"><a class="text-info" href="about.php">About Us</a> </li>
         <li class="dropdown-item my-2"><a class="text-info" href="contact.php">Contact Us</a> </li>
-        <li class="dropdown-item my-2"><a class="text-info" href="blog.php">Our Blog</a> </li>
       </ul>
       </div>
       </div>
@@ -242,8 +241,7 @@ echo "Logout";
           <p class="text-uppercase footer_header">guidance</p>
           <hr class="bg-light mt-0 ml-0" style="width: 7rem; height: 0.1rem;">
             <ul class="list-unstyled ml-5">
-                <li class="my-2"><a class="text-info" href="index.html">Build Your schoole List</a> </li>
-                <li class="my-2"><a class="text-info" href="Service.html">Our Blog</a> </li>
+                <li class="my-2"><a class="text-info" href="collegeListPersonal.html">Build Your school List</a> </li>
             </ul>
         </div>
 

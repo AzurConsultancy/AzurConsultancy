@@ -28,7 +28,7 @@
 
 
   </head> 
-  <body >
+  <body id="inspireBody" >
 <!--begining of the nav bar-->
 <nav class="navbar navbar-expand-lg navbar-light px-5" >
       <div class="container-fluid " >
@@ -104,7 +104,6 @@
         
         <li class="dropdown-item my-2"><a class="text-info" href="about.php">About Us</a> </li>
         <li class="dropdown-item my-2"><a class="text-info" href="contact.php">Contact Us</a> </li>
-        <li class="dropdown-item my-2"><a class="text-info" href="blog.php">Our Blog</a> </li>
       </ul>
       </div>
       </div>
@@ -316,8 +315,7 @@ Because the ability to help people directly is challenging and sometimes hard to
          <p class="text-uppercase footer_header">guidance</p>
          <hr class="bg-light mt-0 ml-0" style="width: 7rem; height: 0.1rem;">
            <ul class="list-unstyled ml-5">
-               <li class="my-2"><a class="text-info" href="index.php">Build Your schoole List</a> </li>
-               <li class="my-2"><a class="text-info" href="blog.php">Our Blog</a> </li>
+               <li class="my-2"><a class="text-info" href="collegeListPersonal.php">Build Your school List</a> </li>
            </ul>
        </div>
 
@@ -355,6 +353,6 @@ Because the ability to help people directly is challenging and sometimes hard to
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
     
   </script>
-  <script src="./Assets/JS/inspire.js"></script>
+  <!-- <script src="./Assets/JS/inspire.js"></script> -->
   </body>
 </html>

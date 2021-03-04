@@ -39,14 +39,13 @@
 	box-sizing: border-box;
 }
 
-body, html {
+body {
 	height: 100%;
-	/* font-family: Montserrat-Regular, sans-serif; */
+  background-image: url("/Assets/Images/contactBack.jpg");
 }
 
 /*---------------------------------------------*/
 a {
-	/* font-family: Montserrat-Regular; */
 	font-size: 14px;
 	line-height: 1.7;
 	color: #666666;

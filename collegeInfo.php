@@ -102,9 +102,8 @@
       <hr class="text-black" >
       <ul class="list-unstyled">
         
-        <li class="dropdown-item my-2"><a class="text-info" href="Service.php">About Us</a> </li>
-        <li class="dropdown-item my-2"><a class="text-info" href="index.php">Contact Us</a> </li>
-        <li class="dropdown-item my-2"><a class="text-info" href="blog.php">Our Blog</a> </li>
+        <li class="dropdown-item my-2"><a class="text-info" href="about.php">About Us</a> </li>
+        <li class="dropdown-item my-2"><a class="text-info" href="contact.php">Contact Us</a> </li>
       </ul>
       </div>
       </div>
@@ -531,8 +530,7 @@ echo "Logout";
          <p class="text-uppercase footer_header">guidance</p>
          <hr class="bg-light mt-0 ml-0" style="width: 7rem; height: 0.1rem;">
            <ul class="list-unstyled ml-5">
-               <li class="my-2"><a class="text-info" href="index.php">Build Your schoole List</a> </li>
-               <li class="my-2"><a class="text-info" href="blog.php">Our Blog</a> </li>
+               <li class="my-2"><a class="text-info" href="collegeListPersonal.php">Build Your school List</a> </li>
            </ul>
        </div>
 
