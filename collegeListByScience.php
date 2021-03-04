@@ -1,6 +1,14 @@
 <?php
-session_start();
+      // require('indexMain.php');
+     session_start();
+
+     if(!isset($_SESSION["email"])){
+        header("Location:indexMain.php");
+
+    }
+ 
 ?>
+
 <!doctype html>
 <html lang="en">
   <head>
