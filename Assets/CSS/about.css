@@ -9,14 +9,11 @@
     }
   }
 .about-header-text{
-    font-family: 'Noto Serif', serif;
     color: rgb(28, 59, 11);
 }
 .btn-below-header-text{
     border-radius: 2rem;
-    font-family: 'Courier New', Courier, monospace;
     font-size: larger;
-    background-color: rgb(77, 58, 70) !important;
 }
 .description{
     margin-left: -30px;
@@ -27,7 +24,6 @@
     }
 }
 .text-about{
-    font-family: 'Newsreader', serif;
     font-size: 1.4rem;
 }
 .text-file{
