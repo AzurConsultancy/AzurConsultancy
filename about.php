@@ -182,7 +182,7 @@ echo "Logout";
 		</div>
 		<div class="row my-5">
 			<div class="col-md-5 col-6  col-xs-12 col-sm-12 mb-4">
-               <p class="miss text-success"> <img src="https://img.icons8.com/emoji/30/000000/bullseye.png"/>Our missions</p>
+               <p class="miss text-success"> <img src="https://img.icons8.com/emoji/30/000000/bullseye.png"/> Our missions</p>
 			   <hr>
 			   <p class="mission shadow p-2" data-aos="fade-right"><i class="fas fa-medal"></i>  Our first mission is to provide free consultancy to help students and families choose from private or governmental college, 
 				or other program that will foster the student's academic and social growth. We are providing a student and family with
@@ -194,7 +194,7 @@ echo "Logout";
 			</div>
       <div class="col-md-2 col-12"></div>
         <div class="col-md-5 col-6 col-xs-12 col-sm-12">
-				<p class="miss text-success"><img src="https://img.icons8.com/color/30/000000/mission-of-a-company.png"/>Our Goals</p>
+				<p class="miss text-success"><img src="https://img.icons8.com/color/30/000000/mission-of-a-company.png"/> Our Goals</p>
         <hr>
 
 				<p class="mission shadow p-2 " data-aos="fade-left"><i class="fas fa-medal"></i> The main goal of this college consultancy is pulling to the best Universities based on thier 

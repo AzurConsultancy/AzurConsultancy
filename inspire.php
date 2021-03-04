@@ -193,6 +193,65 @@ echo "Logout";
 </div>
 
 
+<div class="container my-5">
+  <div class="row">
+    <div class="col-3">
+    <div class="card " style="width: 18rem;">
+  <img class="card-img-top" src="Assets/Images/engineering.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title"> <i class="fas fa-cogs"></i> Engineering</h5>
+    <p class="card-text">Studying engineering brings prestige. Do not forget the prestige that comes with studying engineering. .</p>
+    <a href="collegeListByEngineering.php" class="btn btn-primary">Choose Universities</a>
+  </div>
+      </div>
+  </div>
+
+
+
+  <div class="col-3">
+    <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="Assets/Images/art.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title"><i class="fas fa-gavel"></i> ART</h5>
+    <p class="card-text">
+    Students involved in the arts have tremendous academic benefits compared to students without exposure to the arts. Art inspires kids to excel in and out of the classroom. It helps students stay in school, increases motivation, improves attitudes and attendance, and improves academic performance.</p>
+<a href="collegeListByArt.php" class="btn btn-primary">Choose Universities</a>
+  </div>
+      </div>
+  </div>
+
+
+  <div class="col-3">
+    <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="Assets/Images/medicine.jpeg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Medicine</h5>
+    <p class="card-text">
+Because the ability to help people directly is challenging and sometimes hard to cope with, your medical training will prepare and teach you so that you can handle any situation. Studying medicine gives you the chance to make a difference in a world full of pain and suffering.</p>
+<a href="collegeListByMedicine.php" class="btn btn-primary">Choose Universities</a>
+  </div>
+      </div>
+  </div>
+
+
+  <div class="col-3">
+    <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="Assets/Images/business.jpeg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Business</h5>
+    <p class="card-text">For the aspiring entrepreneurs and business leaders, a business management degree is consistently a popular choice. It provides the academic knowledge and skills to pursue global career opportunities and helps you develop a broad understanding of businesses and specific areas such as finance and human resources. </p>
+    <a href="collegeListByBusiness.php" class="btn btn-primary">Choose Universities</a>
+  </div>
+      </div>
+  </div>
+</div>
+    </div>
+
+  </div>
+
+</div>
+
+
  <!-- below the carousel -->
  <div class="container my-3 py-5 inspirePage">
    
