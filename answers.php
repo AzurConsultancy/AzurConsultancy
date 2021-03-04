@@ -258,8 +258,8 @@ Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus ipsam eaque, mol
            <p class="text-uppercase footer_header">about</p>
            <hr class="bg-light mt-0 ml-0" style="width: 10rem; height: 0.1rem;">
            <ul class="list-unstyled">
-            <a href=""><li class="m-2">About us</li></a>
-            <a href=""><li class="m-2">Contact us</li></a>
+           <a href="about.php"><li class="m-2">About us</li></a>
+            <a href="contact.php"><li class="m-2">Contact us</li></a>
             
               
               

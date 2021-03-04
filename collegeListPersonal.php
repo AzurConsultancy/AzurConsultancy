@@ -151,7 +151,7 @@ echo "Logout";
         <div class="row my-5">
           <div class="col-md-12">
       
-            <div class="accordion  accordion-flush" id="accordionExample">
+            <div class="accordion  asccordion-flush" id="accordionExample">
               <div class="accordion-item">
                 <h2 class="accordion-header" id="headingFive">
                   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
@@ -253,8 +253,8 @@ echo "Logout";
            <p class="text-uppercase footer_header">about</p>
            <hr class="bg-light mt-0 ml-0" style="width: 10rem; height: 0.1rem;">
            <ul class="list-unstyled">
-            <a href=""><li class="m-2">About us</li></a>
-            <a href=""><li class="m-2">Contact us</li></a>
+           <a href="about.php"><li class="m-2">About us</li></a>
+            <a href="contact.php"><li class="m-2">Contact us</li></a>
             
               
               

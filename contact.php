@@ -24,7 +24,7 @@
 
   </head> 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light px-5" >
+  <nav class="navbar navbar-expand-lg navbar-light px-5" >
       <div class="container-fluid " >
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -138,8 +138,7 @@ echo "Logout";
 </div>
 
       </div>
-    </nav>
-   <hr class="text-black" >   
+    </nav> <hr class="text-black" >   
         <div class="contact">
             <div class="container-contact">
                 <div class="contact-pic">
@@ -262,8 +261,8 @@ echo "Logout";
             <p class="text-uppercase footer_header">about</p>
             <hr class="bg-light mt-0 ml-0" style="width: 10rem; height: 0.1rem;">
             <ul class="list-unstyled">
-            <a href=""><li class="m-2">About us</li></a>
-            <a href=""><li class="m-2">Contact us</li></a>
+            <a href="about.php"><li class="m-2">About us</li></a>
+            <a href="contact.php"><li class="m-2">Contact us</li></a>
         </ul>
         </div>
         </div>

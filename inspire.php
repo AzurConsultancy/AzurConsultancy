@@ -28,7 +28,7 @@
 
 
   </head> 
-  <body>
+  <body >
 <!--begining of the nav bar-->
 <nav class="navbar navbar-expand-lg navbar-light px-5" >
       <div class="container-fluid " >
@@ -289,64 +289,63 @@ Because the ability to help people directly is challenging and sometimes hard to
 
 
 
+<!-- the footer part -->
+<footer class="footer_link mt-5" style="margin-bottom: -100px;">
+    <div class="page-footer bg-dark text-white">
 
-<footer class="footer_link" >
-  <div class="page-footer bg-dark text-white">
-
-    <!-- the contact information -->
-    <div class="row text-left mx-5 py-5 px-3 ">
-      <div class="col-md-3">
-        <a href="index.html"><h3 class="mx-2 text-success">Azur Consultancy</h3></a> 
+       <!-- the contact information -->
+     <div class="row text-left mx-5 py-5 px-3 ">
+       <div class="col-md-3">
+        <a href="index.php">          <h3 class="mx-2 text-success">Azur Consultancy</h3></a> 
         <hr class="bg-light mt-0 ml-0" style="width: 10rem; height: 0.1rem;">
-        <a class="m-2" id="email" href="">azurConsultancy@gmail.com</a>
-        <div class="row d-flex align-items-left">
-            <div class="col-md-12">
-              <a href=""><i class="fab fa-instagram fa-2x m-2"></i></a>
-              <a href="#"><i class="fab fa-facebook-square fa-2x m-2"></i></a>
-              <a href=""><i class="fab fa-twitter fa-2x m-2"></i></a>
-              <a href=""><i class="fab fa-linkedin fa-2x m-2"></i></a>
-              <a href=""><i class="fab fa-instagram-square fa-2x m-2"></i></a>
-            </div>
-        </div>
-        <p class="m-2">&copy; 2021 azurConsultancy</p>
-      </div>
+         <a class="m-2" id="email" href="">azurConsultancy@gmail.com</a>
+         <div class="row d-flex align-items-left">
+           <div class="col-md-12">
+               <a href=""><i class="fab fa-instagram fa-2x m-2"></i></a>
+               <a href="#"><i class="fab fa-facebook-square fa-2x m-2"></i></a>
+               <a href=""><i class="fab fa-twitter fa-2x m-2"></i></a>
+               <a href=""><i class="fab fa-linkedin fa-2x m-2"></i></a>
+               <a href=""><i class="fab fa-instagram-square fa-2x m-2"></i></a>
+           </div>
+         </div>
+         <p class="m-2">&copy; 2021 azurConsultancy</p>
+       </div>
 
-      <!-- guidance -->
-      <div class="col-md-3">
-        <p class="text-uppercase footer_header">guidance</p>
-        <hr class="bg-light mt-0 ml-0" style="width: 7rem; height: 0.1rem;">
-        <ul class="list-unstyled ml-5">
-            <li class="my-2"><a class="text-info" href="index.html">Build Your schoole List</a> </li>
-            <li class="my-2"><a class="text-info" href="blog.html">Our Blog</a> </li>
-        </ul>
-      </div>
+   <!-- guidance -->
+       <div class="col-md-3">
+         <p class="text-uppercase footer_header">guidance</p>
+         <hr class="bg-light mt-0 ml-0" style="width: 7rem; height: 0.1rem;">
+           <ul class="list-unstyled ml-5">
+               <li class="my-2"><a class="text-info" href="index.php">Build Your schoole List</a> </li>
+               <li class="my-2"><a class="text-info" href="blog.php">Our Blog</a> </li>
+           </ul>
+       </div>
 
-      <!-- more resorces -->
-      <div class="col-md-3">
-        <p class="text-uppercase footer_header">more resources</p>
-        <hr class="bg-light mt-0 ml-0" style="width: 10rem; height: 0.1rem;">
-        <ul class="list-unstyled ml-5">
-            <li class="my-2"><a class="text-info" href="index.html">Grade Guides</a> </li>
-            <li class="my-2"><a class="text-info" href="Service.html">Downloads </a> </li>
-        </ul>
-      </div>
-
-      <div class="col-md-3">
-        <p class="text-uppercase footer_header">about</p>
-        <hr class="bg-light mt-0 ml-0" style="width: 10rem; height: 0.1rem;">
-        <ul class="list-unstyled">
-          <a href=""><li class="m-2">About us</li></a>
-          <a href=""><li class="m-2">Contact us</li></a>
-        </ul>
-        
-      </div>
-    </div>
-  </div>
-</footer> 
+            <!-- quick links -->
+            <div class="col-md-3">
+         <p class="text-uppercase footer_header">Quick Links</p>
+         <hr class="bg-light mt-0 ml-0" style="width: 10rem; height: 0.1rem;">
+         <ul class="list-unstyled ml-5">
+             <li class="my-2"><a class="text-info" href="collegeListPersonal.php">Personal List</a> </li>
+             <li class="my-2"><a class="text-info" href="inspire.php">Inspirational Advice</a> </li>
+         </ul>
+     </div>
 
 
-
-
+       <div class="col-md-3">
+           <p class="text-uppercase footer_header">about</p>
+           <hr class="bg-light mt-0 ml-0" style="width: 10rem; height: 0.1rem;">
+           <ul class="list-unstyled">
+            <a href=""><li class="m-2">About us</li></a>
+            <a href=""><li class="m-2">Contact us</li></a>
+            
+              
+              
+              </ul>
+       </div>
+       </div>
+   </div>
+ </footer>
 
 
 
