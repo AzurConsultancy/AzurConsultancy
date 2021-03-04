@@ -148,55 +148,85 @@ echo "Logout";
    <hr class="text-black" >
 
  <!-- below the nav -->
- <div class="container">
-  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="./Assets/Images/AddisAbabaUniversity.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5 class="text-dark">What is good in Addis Abeba Unversity</h5>
-            <p>Some representative placeholder content for the first slide.</p>
-            <button class="btn btn-primary buttonOne">See more</button>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="./Assets/Images/AddisAbabaUniversity.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5 class="text-dark">What is good in Hawassa Unversity</h5>
-            <p>Some representative placeholder content for the second slide.</p>
-            <button class="btn btn-primary buttonOne">See more</button>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="./Assets/Images/AddisAbabaUniversity.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5 class="text-dark">What is good in Gonder Unversity</h5>
-            <p>Some representative placeholder content for the third slide.</p>
-            <button class="btn btn-primary buttonOne">See more</button>
-          </div>
-        </div>
-      </div>
-      <a class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </a>
-      <a class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </a>
+ <div class="row">
+   <div class="col-1"></div>
+ <div class=" col-7 container py-5">
+ <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="Assets/Images/Covers/Addis Ababa University.jpg" class="d-block w-100" alt="...">
     </div>
+    <div class="carousel-item">
+    <img src="Assets/Images/Covers/Bahir Dar University.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="Assets/Images/Covers/Adama Science and Technology University.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="Assets/Images/Covers/Ambo University.jpg" class="d-block w-100" alt="...">
+    </div>
+
+    <div class="carousel-item">
+      <img src="Assets/Images/Covers/Debre Berhan University.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="Assets/Images/Covers/Gondar University.jpg" class="d-block w-100" alt="...">
+    </div>
+
+    <div class="carousel-item">
+      <img src="Assets/Images/Covers/Haramaya University.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="Assets/Images/Covers/Hawassa University.jpg" class="d-block w-100" alt="...">
+    </div>
+
+
+<div class="carousel-item">
+      <img src="Assets/Images/Covers/Jimma University.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="Assets/Images/Covers/Mekelle Institute of Technology.jpg" class="d-block w-100" alt="...">
+    </div>
+
+    <div class="carousel-item">
+      <img src="Assets/Images/Covers/Rift Valley University.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="Assets/Images/Covers/Unity University.jpg" class="d-block w-100" alt="...">
+    </div>
+
+    
+
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+
 </div>
+<div class="col-1"></div>
 
 
-<div class="container my-5">
+ </div>
+
+<div class="container my-5 mx-3">
   <div class="row">
-    <div class="col-3">
-    <div class="card " style="width: 18rem;">
+    <div class="col-lg-3 col-sm-12 col-md-3 col-12">
+    <div class="card shadow-lg " >
   <img class="card-img-top" src="Assets/Images/engineering.jpg" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title"> <i class="fas fa-cogs"></i> Engineering</h5>
@@ -208,8 +238,8 @@ echo "Logout";
 
 
 
-  <div class="col-3">
-    <div class="card" style="width: 18rem;">
+  <div class="col-lg-3 col-sm-12 col-md-3 col-12">
+    <div class="card shadow-lg " >
   <img class="card-img-top" src="Assets/Images/art.jpg" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title"><i class="fas fa-gavel"></i> ART</h5>
@@ -221,11 +251,11 @@ echo "Logout";
   </div>
 
 
-  <div class="col-3">
-    <div class="card" style="width: 18rem;">
+  <div class="col-lg-3 col-sm-12 col-md-3 col-12">
+    <div class="card shadow-lg" mx-3>
   <img class="card-img-top" src="Assets/Images/medicine.jpeg" alt="Card image cap">
   <div class="card-body">
-    <h5 class="card-title">Medicine</h5>
+    <h5 class="card-title"><i class="fas fa-stethoscope"></i> Medicine</h5>
     <p class="card-text">
 Because the ability to help people directly is challenging and sometimes hard to cope with, your medical training will prepare and teach you so that you can handle any situation. Studying medicine gives you the chance to make a difference in a world full of pain and suffering.</p>
 <a href="collegeListByMedicine.php" class="btn btn-primary">Choose Universities</a>
@@ -234,11 +264,11 @@ Because the ability to help people directly is challenging and sometimes hard to
   </div>
 
 
-  <div class="col-3">
-    <div class="card" style="width: 18rem;">
+  <div class="col-lg-3 col-sm-12 col-md-3 col-12">
+    <div class="card shadow-lg" >
   <img class="card-img-top" src="Assets/Images/business.jpeg" alt="Card image cap">
   <div class="card-body">
-    <h5 class="card-title">Business</h5>
+    <h5 class="card-title"><i class="fas fa-users-cog"></i> Business</h5>
     <p class="card-text">For the aspiring entrepreneurs and business leaders, a business management degree is consistently a popular choice. It provides the academic knowledge and skills to pursue global career opportunities and helps you develop a broad understanding of businesses and specific areas such as finance and human resources. </p>
     <a href="collegeListByBusiness.php" class="btn btn-primary">Choose Universities</a>
   </div>
@@ -250,115 +280,6 @@ Because the ability to help people directly is challenging and sometimes hard to
   </div>
 
 </div>
-
-
- <!-- below the carousel -->
- <div class="container my-3 py-5 inspirePage">
-   
-  <div class="row">
-      <div class="col-lg-4 col-md-6 bg-light my-5 body-section-02">
-        <p class="text-center text-success display-6 pb-2">Sponsers</p>
-          <div class="row">
-              <div class="col-sm-6">
-                  <div class="logo"> <i class="fas fa-graduation-cap fa-4x"></i></div>
-                  <h3 class="text-uppercase">sumsung</h3>
-                  <p>sumsung is the first collaborator since 2000</p>
-              </div>
-              <div class="col-sm-6">
-                  <div class="logo"> <i class="fas fa-graduation-cap fa-4x"></i></div>
-                  <h3 class="text-uppercase">sumsung</h3>
-                  <p>sumsung is the first collaborator since 2000</p>
-              </div>
-          </div>
-          <div class="row">
-              <div class="col-sm-6">
-                  <div class="logo"> <i class="fas fa-graduation-cap fa-4x"></i></div>
-                  <h3 class="text-uppercase">sumsung</h3>
-                  <p>sumsung is the first collaborator since 2000</p>
-              </div>
-              <div class="col-sm-6">
-                  <div class="logo"> <i class="fas fa-graduation-cap fa-4x"></i></div>
-                  <h3 class="text-uppercase">sumsung</h3>
-                  <p>sumsung is the first collaborator since 2000</p>
-              </div>
-          </div>
-      </div>
-      <div class="col-lg-4 col-md-6 bg-light my-5 body-section-02">
-        <p class="text-success display-6 text-center pb-2">Hero students</p>
-          <div class="card">
-              <img class="card-img" src="./Assets/Images/" alt="some person image">
-              <div class="card-body">
-               <p>Alemu kebede is the best person ever who is responsible doing his best in engineering
-                   and his talent 
-               </p>
-              <div class="text-center"><button class="btn btn-success mx-5 ">See more</button></div> 
-              </div>
-          </div>
-      </div>
-      <div class="col-lg-4 col-md-6 bg-light my-5 body-section-02">
-        <p class="text-center text-success display-6 pb-2">Unique qualities</p>
-          <div class="row">
-              <div class="col-3">
-                  <i class="fas fa-graduation-cap fa-2x"></i>
-              </div>
-              <div class="col-9">
-                  <h5>What is new in bahirdar best things there</h5>
-                  <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae at nihil velit, 
-                    fugit labore sapiente, cumque molestias dicta quas rerum nostrum.</p>
-                  </div>
-          </div>
-          <div class="row">
-            <div class="col-3">
-                <i class="fas fa-graduation-cap fa-2x"></i>
-            </div>
-            <div class="col-9">
-                <h5>What is new in gondar university</h5>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae at nihil velit, 
-                fugit labore sapiente, cumque molestias dicta quas rerum nostrum.</p>  </div>
-            </div>
-      </div>
-  </div>
-</div>
-
-
-
-<div class="container my-3 bg-light">
-  <div class="display-6 py-4 text-success text-center">General discriptions</div>
-   <div class="row">
-      <div class="col-sm-2">
-
-      </div>
-       <div class="col-sm-4 firstSlide">
-           <div class="card">
-               <img class="card-img" src="./res/images/addis ababa.jpeg" alt="">
-               <div class="card-body">
-                <p>What is unique about addis ababa university? what are the collaborators with oldest 
-                    the emperial university? do you mind it is true that sumsung, mistsubush and other international organizations 
-                    are working with this oldest university.
-                </p>
-                <button class="btn btn-success mx-5">See more</button>
-               </div>
-           </div>
-       </div>
-       <div class="col-sm-4">
-          <div class="card">
-              <img class="card-img" src="./res/images/addis ababa.jpeg" alt="">
-              <div class="card-body">
-               <p>What is unique about addis ababa university? what are the collaborators with oldest 
-                   the emperial university? do you mind it is true that sumsung, mistsubush and other international organizations 
-                   are working with this oldest university.
-               </p>
-               <button class="btn btn-success mx-5">See more</button>
-              </div>
-          </div>
-      </div>
-      <div class="col-sm-2">
-        
-      </div>
-   </div>
-</div>
-
-
 
 
 
