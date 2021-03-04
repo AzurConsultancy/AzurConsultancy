@@ -178,7 +178,7 @@ style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-w
 
                     ?>
                     <script >
-                    window.location.href ="recovery.php";
+                    window.location.href ="index.php";
 
                     </script>
                     <?php
