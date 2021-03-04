@@ -491,7 +491,7 @@ function displayCollegeListTop() {
         divIdCol1.innerHTML = id;
         divIdCol2.innerHTML = `
          
-        <a href="./collegeInfo.html?univName=${univName}">${univName} </a>
+        <a href="./collegeInfo.php?univName=${univName}">${univName} </a>
 
         `;
         divIdCol3.innerHTML = arg;

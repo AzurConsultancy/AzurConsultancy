@@ -1,13 +1,13 @@
 let DB;
 let order = 1;
 
+const user = document.querySelector('#user'); 
 
 const newQuestion = document.querySelector('#newQuestion'); 
 const submit = document.querySelector('.submitQuestion'); 
 const answerView = document.querySelector('#answer'); //The UL
 const timeStampView = document.querySelector('#timeStamp'); //The UL
 const askerView = document.querySelector('#user'); //The UL
-const responseBtn = document.querySelectorAll('#submitAnswer'); //The UL
 
 const questionsView = document.querySelector('#question'); //The UL
 const questionsList = document.querySelector('#QuestionsView'); //The UL
@@ -16,7 +16,6 @@ const questionsList = document.querySelector('#QuestionsView'); //The UL
 
 document.addEventListener('DOMContentLoaded', () => {
     
-
     let univDB = indexedDB.open('univDB', 1);
 
     // if there's an error
@@ -58,7 +57,9 @@ document.addEventListener('DOMContentLoaded', () => {
               addToDb();
               let requestt = objectStoreQA.add(addQ);
               requestt.onsuccess = () => {
-                     alert("Added Successfully")
+
+
+
               } 
           
           } 
@@ -133,14 +134,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
             if (cursor) {   
                 rank = cursor.value.id;
-                add(cursor.value.id,cursor.value.asker,cursor.value.timeStamp,cursor.value.question,cursor.value.answer, cursor);
+                add(cursor.value.id,cursor.value.asker,cursor.value.timeStamp,cursor.value.question,cursor);
                 cursor.continue();
             } else{console.log("Nan")}
               
             
       }
     }
-    function add( id,asker, timeStamp,question,answer,cursor){
+    function add( id,asker, timeStamp,question,cursor){
       
 
     
@@ -159,7 +160,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
          divContainer.innerHTML = `
 
-         <div class="row mt-5">
+         <div class="shadow-lg row mt-5 ">
          <div class="col-sm-2 col-lg-1 col-md-3">
            <img src="https://img.icons8.com/fluent/48/000000/person-male.png"/>
          </div>
@@ -175,18 +176,18 @@ ${question}
      <div class="row">
        <div class="col-lg-1"></div>
        
-          <div class="col-sm-2 col-lg-2 col-md-2 py-3 text-success fw-bolder" id="user">
-           <i class="fas fa-user-edit text-success"></i>  Jone Doe        </div>
-         <div class="col-sm-2 col-lg-2 col-md-2 py-3">
+          <div class="col-sm-2 col-lg-2 col-md-2 col-4 py-3 text-success fw-bolder" id="user">
+           <i class="fas fa-user-edit text-success"></i>  ${asker}  </div>
+         <div class="col-sm-2 col-lg-2 col-md-2 py-3 col-4">
            <i class="fas fa-stopwatch text-success" ></i>  <span >${timeStamp}</span>
 
          </div>
-         <div class="col-sm-2 col-lg-2 col-md-2 py-3">
-           <i class="far fa-comments text-success"></i> <span ><a href="answers.html?id=${cursor.value.id}">Answers</a></span>
+         <div class="col-sm-2 col-lg-2 col-md-2 py-3 col-4">
+           <i class="far fa-comments text-success"></i> <span ><a href="./answers.php?id=${cursor.value.id}">Answers</a></span>
 
          </div>
-         <div class="col-sm-2 col-lg-2 col-md-2 py-3">
-           <i class="fas fa-comment-dots text-success"></i> <span><a href="comment.html?id=${cursor.value.id}">Comment</a></span>
+         <div class="col-sm-2 col-lg-2 col-md-2 py-3 col-4">
+           <i class="fas fa-comment-dots text-success"></i> <span><a href="./comment.php?id=${cursor.value.id}">Comment</a></span>
 
          </div>
    </div>
@@ -200,6 +201,7 @@ ${question}
       function addToDb(){
 
         addQ.question =newQuestion.value;
+        addQ.asker = askerView.innerHTML;
         
     
     
@@ -208,7 +210,6 @@ ${question}
     
     }
       
-
 
 
      

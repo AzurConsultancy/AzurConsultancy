@@ -43,10 +43,24 @@ calculate.addEventListener('click',displayCollegeList);
         markUpdated = mark.value
         affirmative();
 
+      
         var fTemp = ""   
         univList.innerHTML = ""
         order = 1
-       
+        
+        if(parseInt(markUpdated)<=300){
+            univList.innerHTML = `<span style="color:red;font-size:60px;"> <i class="fas fa-window-close text-danger"></i> Under the passing mark.</span>`
+            
+            return
+
+        }
+        if(parseInt(markUpdated)>700){
+            univList.innerHTML = `<span style="color:red; font-size:60px;" text-center> <i class="fas fa-window-close text-danger"></i> Invalid Input</span>`
+            
+            return
+
+        }
+
 
        field === "Natural"? fTemp ="naturalMark" : fTemp ="socialMark" //Field chosen
 
@@ -114,7 +128,7 @@ calculate.addEventListener('click',displayCollegeList);
         order +=1;
         divIdCol2.innerHTML = `
          
-        <a href="./collegeInfo.html?univName=${univName}">${univName} </a>
+        <a href="./collegeInfo.php?univName=${univName}">${univName} </a>
 
         `;
         divIdCol3.innerHTML = arg;

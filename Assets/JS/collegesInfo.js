@@ -71,10 +71,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-
-    var path = "Assets/Images/Covers/";
-
+if(uName.trim() === "University of Gondar"){
+    document.getElementById("cover").src = "Assets/Images/Covers/download.jpg";
+}
+    else{
+        var path = "Assets/Images/Covers/";
     document.getElementById("cover").src = path+uName+".jpg";
+
+    }
 
     // create the database
     let univDB = indexedDB.open('univDB', 1);
@@ -197,7 +201,7 @@ function addToPersonalDB(){
         addToDb();
         let request = objectStorePersonal.add(addUniv);
         request.onsuccess = () => {
-alert("Added Successfully")
+        
         } 
     
     } 

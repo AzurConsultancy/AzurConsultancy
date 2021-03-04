@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,7 +14,7 @@
 <?php session_start();
 
 if(isset($_GET["id"])){
-    $_SESSION["username"]=null;
+    $_SESSION["email"]=null;
 }
 ?>
 
@@ -81,7 +82,7 @@ style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-w
 <div class=" row justify-content-center" >
     
     <div class="col-md-6 col-sm-12  mb-3">
-        <input type="text" class="form-control" style="display: none;" name="fNameField"  id="fNameField" placeholder="First name" aria-label="First name" aria-describedby="basic-addon1">
+        <input type="text" class="form-control" style="display: none;" name="fNameField"  id="fNameField" placeholder="First name" aria-label="First name" >
 
     </div>
     
@@ -89,7 +90,7 @@ style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-w
 <div class=" row justify-content-center" >
     
     <div class="col-md-6  mb-3">
-        <input type="text" class="form-control"  style="display: none;" placeholder="Last name" name="lNameField"  id="lNameField" aria-label="lastname" aria-describedby="basic-addon1">
+        <input type="text" class="form-control"  style="display: none;" placeholder="Last name" name="lNameField"  id="lNameField" aria-label="lastname" >
 
     </div>
   
@@ -172,18 +173,23 @@ style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-w
            
             if($u == $row[0] ){
                 $p = crypt($p,$row[1]);
+                define('sessionCheck',TRUE);
 
                 if($p == $row[1]){
                     $_SESSION["email"] = $row[0];
+                    
+
 
                     ?>
                     <script >
+
                     window.location.href ="index.php";
 
                     </script>
+                    
                     <?php
-                  
-                    $_SESSION["email"] = $row[0];
+
+
                     $temp=1;
                     break;  
                 }
@@ -285,9 +291,12 @@ if(empty($errors)){
         }
         
         
+        
     
 
         ?>
+        
+
 
 <?php include("Includes/footer.php")?>
 

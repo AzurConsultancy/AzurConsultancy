@@ -10,6 +10,10 @@ let comment = ""
 const questionView = document.querySelector('#question'); 
 
 const askerView= document.querySelector('#asker'); 
+
+const user= document.querySelector('#user'); 
+const answers= document.querySelector('#answers'); 
+
 const commentBtn= document.querySelector('#comment'); 
 
 const textArea= document.querySelector('#commentField'); 
@@ -66,7 +70,7 @@ function add(){
     addToDb();
     let request = objectStoreAnswer.add(addComment);
     request.onsuccess = () => {
-alert("Added Successfully")
+
     } 
 
 } 
@@ -104,9 +108,10 @@ function displayQuestion() {
 
     if (cursor) {   
 
-      if(parseInt(cursor.value.id )=== parseInt(questionID) ){
+      if(parseInt(cursor.value.id ) === parseInt(questionID) ){
 
-        paintQuestion(cursor.value.asker,cursor.value.timeStamp,cursor.value.question);
+        paintQuestion(cursor.value.asker,cursor.value.timeStamp,cursor.value.question,cursor);
+
       }
       cursor.continue();
 
@@ -120,11 +125,13 @@ function displayQuestion() {
 
     // painting functions
 
-    function paintQuestion( asker, timeStamp,question){
+    function paintQuestion( asker, timeStamp,question,cursor){
       
-     questionView.innerHTML = question
-     timeStampView.innerHTML = timeStamp
-     askerView.innerHTML = "John Doe"
+     questionView.innerHTML = question;
+     timeStampView.innerHTML = timeStamp;
+     askerView.innerHTML = asker;
+     answers.innerHTML = `<i class="far fa-comments text-success"></i> <span ><a href="answers.php?id=${cursor.value.id}">Answers</a></span>
+     `
 
     
        
@@ -134,7 +141,7 @@ function displayQuestion() {
 
         addComment.ID = questionID;
         addComment.comment = textArea.value
-        addComment.commenter = "Azur"
+        addComment.commenter = user.innerHTML
       
         
     

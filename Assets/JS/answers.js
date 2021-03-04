@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
 
     let univDB = indexedDB.open('univDB', 1);
-    commentLink.innerHTML =` <a href="comment.html?id=${questionID}">Comment</a>`
+    commentLink.innerHTML =` <a href="comment.php?id=${questionID}">Comment</a>`
     // if there's an error
     univDB.onerror = function() {
             console.log('There was an error');
@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', () => {
       questionEach.classList = "py-2 my-4"
 
       questionEach.innerHTML = `
-        <div class="row mb-3 ">
+        <div class="row mb-3 shadow  ">
           <div class="col-sm-2 col-lg-1 col-md-3">
           </div>
           <div class="col-sm-10 col-lg-10 col-md-10  " >
@@ -124,7 +124,7 @@ ${answer}           </div>
     function paintQuestion( asker, timeStamp,question){
      questionView.innerHTML = question
      timeStampView.innerHTML = timeStamp
-     askerView.innerHTML = "Jone Doe"
+     askerView.innerHTML = asker
    
 
     

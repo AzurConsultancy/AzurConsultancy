@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
         order +=1;
         divIdCol2.innerHTML = `
          
-        <a href="./collegeInfo.html?univName=${univName}">${univName} </a>
+        <a href="./collegeInfo.php?univName=${univName}">${univName} </a>
 
         `;
         divIdCol3.innerHTML = arg;
@@ -124,9 +124,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
             if (confirm('Are You Sure about that ?')) {
-                // get the task id
                 let univID = Number(e.target.parentElement.parentElement.getAttribute('data-list-id'));
-                // use a transaction
 
 
                 let transaction = DB.transaction(['personalList'], 'readwrite');
