@@ -142,8 +142,8 @@ echo "Logout";
     <hr class="text-black" >  
 	
 	<!-- below the navbar -->
-	<div class="container-fluid my-5 pt-2 pb-5">
-		<div class="container mt-5">
+	<div class="container-fluid my-5 pt-2 pb-5" >
+		<div class="container mt-5" data-aos="flip-up">
 			<div class="row">
 				<div class="col-sm-1 d-none d-lg-block "><div class = "vertical"></div> </div>
 				<div class="col-md-6 col-xs-12 about-header-text">
@@ -178,24 +178,26 @@ echo "Logout";
 	<div class="container mt-5">
 		<div class="text-center">
 			<div class="display-6">About college Consultancy</div>
-			<hr class="hr" style="height: 5px;">
+			<hr class="hr">
 		</div>
 		<div class="row my-5">
-			<div class="col-md-5 col-6  col-xs-12 col-sm-12">
+			<div class="col-md-5 col-6  col-xs-12 col-sm-12 mb-4">
                <p class="miss text-success"> <img src="https://img.icons8.com/emoji/30/000000/bullseye.png"/>Our missions</p>
 			   <hr>
-			   <p class="mission">Our first mission is to provide free consultancy to help students and families choose from private or governmental college, 
+			   <p class="mission shadow p-2" data-aos="fade-right"><i class="fas fa-medal"></i>  Our first mission is to provide free consultancy to help students and families choose from private or governmental college, 
 				or other program that will foster the student's academic and social growth. We are providing a student and family with
 				 individual attention, firsthand knowledge of hundreds of educational opportunities in Ethiopian Universities and colleges, and the time to explore all of the options.</p>
 	
-				<p class="my-2 mission">Using our experience, we broaden the students potential choices and provide vital help in weighing factors 
+				<p class="my-2 mission shadow p-2 " data-aos="fade-right"> <i class="fas fa-medal"></i> Using our experience, we broaden the students potential choices and provide vital help in weighing factors 
 					such as cost, location and curriculum. This gives students and families the 
 					opportunity to explore a wider variety of options and discuss possibilities in a meaningful way.</p>
 			</div>
       <div class="col-md-2 col-12"></div>
         <div class="col-md-5 col-6 col-xs-12 col-sm-12">
 				<p class="miss text-success"><img src="https://img.icons8.com/color/30/000000/mission-of-a-company.png"/>Our Goals</p>
-				<p class="mission"> The main goal of this college consultancy is pulling to the best Universities based on thier 
+        <hr>
+
+				<p class="mission shadow p-2 " data-aos="fade-left"><i class="fas fa-medal"></i> The main goal of this college consultancy is pulling to the best Universities based on thier 
 					scores in order to be acceptable and get their top choices and minimizing the cost, location
 					and many other constraints of students which challenged them not to success in thier higher educations.
 				<p></p>
