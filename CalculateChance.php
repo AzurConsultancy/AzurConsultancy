@@ -117,7 +117,7 @@
         </div>
         <img src="https://img.icons8.com/fluent/20/000000/person-male.png"/>
 
-        <div>
+        <div id="user">
 
 <?php
 
@@ -149,7 +149,7 @@ echo "Logout";
     <hr class="text-black" >
    
     <!-- below the navbar this is the body -->
-    <div class="container container_one my-3">
+    <div class="container container_one my-3" data-aos="fade-down">>
         <div class="header">
             <h3 class="text-center my-5 pt-5 text-success" >Calculate your chances of joining the best universities based on your status.</h3>
 
@@ -196,14 +196,14 @@ echo "Logout";
                   
                  </div>
                 </div>
-                <div class="col-md-5 col-sm-10 my-md-1">
+                <div class="col-md-5 col-sm-10 my-md-1" data-aos="fade-left">
                   <img class ="img-fluid rounded" src="./Assets/Images/calculate.jpg" alt="">
                </div>
             </div>
         </div>
     </div>
     <!-- the calculate form and displayed content -->
-    <div class="container calculate-main">
+    <div class="container calculate-main" data-aos="flip-down">
         <div class="row">              
             <div class="theForm col-12 col-xl-4 col-lg-4 col-md-10 col-sm-12 col-xs-12
              p-5 m-md-5">
@@ -245,11 +245,11 @@ echo "Logout";
             </div>
         </div>
     </div>
-    <div class="container p-md-5">
+    <div class="container p-md-5" data-aos="zoom-in-up">
         <div class="row">
           <div class="col-md-2"></div>
-          <div class="col-md-8 text-center">
-            <h3 class="m-3">Understanding your chances can be difficult</h3>
+          <div class="col-md-8 text-center"  data-aos="zoom-in-left">
+            <h3 class="m-3" >Understanding your chances can be difficult</h3>
             <hr>
             <p>CollegeVine takes the guesswork out of college admissions. 
               Students have many misconceptions about average acceptance rates and their 

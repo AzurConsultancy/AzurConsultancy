@@ -23,7 +23,7 @@
 
 
   </head> 
-  <body id="inspireBody">
+  <body class="inspireBody">
   <nav class="navbar navbar-expand-lg navbar-light px-5" >
       <div class="container-fluid " >
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -245,15 +245,15 @@ echo "Logout";
             </ul>
         </div>
 
-        <!-- more resorces -->
-        <div class="col-md-3 col-sm-6">
-          <p class="text-uppercase footer_header">more resources</p>
-          <hr class="bg-light mt-0 ml-0" style="width: 10rem; height: 0.1rem;">
-          <ul class="list-unstyled ml-5">
-              <li class="my-2"><a class="text-info" href="index.html">Grade Guides</a> </li>
-              <li class="my-2"><a class="text-info" href="blog.html">Downloads </a> </li>
-          </ul>
-      </div>
+         <!-- quick links -->
+         <div class="col-md-3">
+         <p class="text-uppercase footer_header">Quick Links</p>
+         <hr class="bg-light mt-0 ml-0" style="width: 10rem; height: 0.1rem;">
+         <ul class="list-unstyled ml-5">
+             <li class="my-2"><a class="text-info" href="collegeListPersonal.php">Personal List</a> </li>
+             <li class="my-2"><a class="text-info" href="inspire.php">Inspirational Advice</a> </li>
+         </ul>
+     </div>
 
         <div class="col-md-3 col-sm-6">
             <p class="text-uppercase footer_header">about</p>

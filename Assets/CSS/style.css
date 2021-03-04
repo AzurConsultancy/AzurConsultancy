@@ -15,10 +15,11 @@ body{
 
 
 }
-#inspireBody{
-    background-image: url("../Images/contactBack.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+.inspireBody{
+    min-height:100%;
+    background:linear-gradient(0deg, rgba(88, 86, 88, 0.3), rgba(46, 45, 46, 0.6)), url("../Images/contactBack.jpg");
+    background-size:cover;
+
 
 }
 

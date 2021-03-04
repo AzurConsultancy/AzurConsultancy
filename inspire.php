@@ -28,7 +28,7 @@
 
 
   </head> 
-  <body id="inspireBody" >
+  <body class="inspireBody" >
 <!--begining of the nav bar-->
 <nav class="navbar navbar-expand-lg navbar-light px-5" >
       <div class="container-fluid " >
@@ -114,7 +114,7 @@
         </div>
         <img src="https://img.icons8.com/fluent/20/000000/person-male.png"/>
 
-        <div>
+        <div id="user">
 
 <?php
 

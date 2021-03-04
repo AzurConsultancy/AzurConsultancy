@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
           } 
            
           transaction.oncomplete = () => {
-              console.log('New appointment added');
+              console.log('New question added');
            
       
       
@@ -73,6 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
           }
           transaction.onerror = () => {
               console.log('There was an error, try again!');
+
           }
       
       

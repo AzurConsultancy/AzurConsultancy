@@ -114,7 +114,7 @@
         </div>
         <img src="https://img.icons8.com/fluent/20/000000/person-male.png"/>
 
-        <div>
+        <div id="user">
 
 <?php
 
