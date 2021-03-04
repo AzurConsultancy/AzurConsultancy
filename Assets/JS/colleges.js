@@ -200,21 +200,10 @@ var scienceCourseUnder = ["Yes","Yes","Yes","Yes","Yes","Yes","Yes"," "," "," ",
 var scienceCoursePost = ["Yes","Yes "," Yes"," ","Yes","Yes","Yes","Yes"," "," "," ","Yes"," "
 ]
 
-var socialMarkList = ["520","495","495","490 ","450","430","453","410"," 400","400 ","367 ","367 "," 367"
+var socialMarkList = ["500","495","495","490 ","450","430","453","410"," 400","400 "," "," "," "
 ]   
-var naturalMarkList = ["580 ","520","530","510 ","450","430","400","420"," 480","390 ","367 ","367 ","367 "
+var naturalMarkList = ["550 ","520","530","510 ","450","430","400","420"," 480","390 "," "," "," "
 ]   
-
-
-
-
-
-
-
-
-
-
-
 
     univNameList.forEach((element,index) => {
             console.log(index);
@@ -337,6 +326,8 @@ var naturalMarkList = ["580 ","520","530","510 ","450","430","400","420"," 480",
         let objectStore = db.createObjectStore('univLists', { keyPath: 'id', autoIncrement: true });
         let objectStorePersonal = db.createObjectStore('personalList', { keyPath: 'id', autoIncrement: true });
         let objectStoreQA = db.createObjectStore('questionAndanswer', { keyPath: 'id', autoIncrement: true });
+        let objectStoreAnswers = db.createObjectStore('Answers', { keyPath: 'id', autoIncrement: true });
+
 
 
 
@@ -359,9 +350,12 @@ var naturalMarkList = ["580 ","520","530","510 ","450","430","400","420"," 480",
     //Table for Question and Q  &  A
     objectStoreQA.createIndex('question', 'question', { unique: false });
     objectStoreQA.createIndex('user', 'user', { unique: false });
+    
+    objectStoreAnswers.createIndex('comment', 'comment', { unique: false });
 
 
 
+   // Table for Answers Table
     
 
 

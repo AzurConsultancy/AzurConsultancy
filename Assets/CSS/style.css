@@ -6,20 +6,32 @@
 
 /*  univerity drop down */
 body{
-
     margin: 0;
     padding: 0;
     font-family: 'Hammersmith One', sans-serif;
+    background-color: rgb(231, 231, 230);
 
 
 
 
 }
+
 .navbar ul li{
 
 padding-right: 20px;
 padding-bottom: 0;
 
+}
+
+.navbar{
+    z-index: 1000;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#nav{
+margin-bottom: 100px;
 }
 .menu-area{
     position: static;
@@ -89,23 +101,7 @@ padding-bottom: 0;
 
 
 
-  .menu-nav-bar{
-    position: static;
-}
-
-.drop-down-links{
-    position: absolute;
-    margin-left: 10rem;
-    background-color: #f4f6f8;
-    font-size: 0.9rem;
-    font-family: 'Times New Roman', Times, serif
-}
-
-#loginBtn:hover{
-    background-color:rgb(167, 165, 159);
-    border: none;
-}
-
+/* for the nav part */
 .dropdown:hover>.dropdown-menu{
     display: block;
   }
@@ -128,7 +124,7 @@ padding-bottom: 0;
 .drop-down-links a:hover{
      color:#000000;
 }
-
+/* for the drop down pages and links */
 .drop-down-page a{
     text-decoration: none;
     color: #757272 !important;
@@ -177,6 +173,10 @@ padding-bottom: 0;
 /* for the footer */
 .footer{
     margin-bottom: -999px; 
+}
+.fab:hover
+{
+color: rgb(100, 197, 113);
 }
 a{
     text-decoration: none;
@@ -321,6 +321,10 @@ iframe:hover{
 }
 
 /*Q AND A*/
+#individualQuestion{
+    background-color: rgb(206, 206, 212);
+    
+}
 
 .btn-qa{
     float: right;
@@ -356,40 +360,18 @@ iframe:hover{
 }
 
 
+.description{
+    color: black;
+}
+#calList1{
+list-style: none;
+}
+#calList1 li {
+    padding-left: 1em;
+    text-indent: -1em;
+  }
 
-/*styling applied on the Question and Answer page*/
-/*style on the inspire page*/
-.carousel-caption h5{
-    font-size: 45px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-top: 25px;
-    font-family: poppins;
-}
-.carousel-caption a{
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-top: 15px;
-    font-family: poppins;
-    display: inline-block;
-    color: rgb(10, 204, 36);
-}
-.carousel-file{
-    height: 25vh!important;
-}
-#carousel{
-    height: 45px;
-}
-.carousel-item img{
-    height: 24rem;
-    width: 20rem;
-}
-
-.body-section-02{
-    border-right: 5px rgb(255, 255, 255) solid;
-}
-
-/* .inspirePage{
-    display: block !important;
-} */
-
+  /* comment section style */
+  textarea{
+      resize: none;
+  }
