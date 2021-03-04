@@ -31,7 +31,7 @@
 
   </head> 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light px-5" >
+  <nav class="navbar navbar-expand-lg navbar-light px-5" >
       <div class="container-fluid " >
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -51,7 +51,7 @@
             </li>
             <!-- ends unuversity -->
             <li class="nav-item">
-              <a class="nav-link" href="#">Q & A</a>
+              <a class="nav-link" href="QA.php">Q & A</a>
             </li>
     
   <li class="nav-item dropdown menu-area d-none d-lg-block" id="megaMenu">
@@ -63,22 +63,22 @@
       <!-- collegues part -->
       <div class="row text-left mx-5 py-5  ">
       <div class="col-sm-6 col-lg-3" >
-      <p class="text-uppercase drop-header ">Find School</p>
+      <p class="text-uppercase drop-header mx-3 ">Find School</p>
       <hr class="text-black" >
-      <ul class="list-unstyled pl-0">
+      <ul class="list-unstyled pl-0 ml-0">
       <li class="dropdown-item my-2"><a class="text-info" href="CalculateChance.php">Calculate your chance</a> </li>
       <li class="dropdown-item my-2"><a class="text-info" href="./collegeListByEngineering.php"> Collages for Engineering</a> </li>
       <li class="dropdown-item my-2"><a class="text-info" href="./collegeListByMedicine.php">Collages for  Medicine</a> </li>
       <li class="dropdown-item my-2"><a class="text-info" href="./collegeListByBusiness.php">Collages for Business</a> </li>
-      <li class="dropdown-item my-2"><a class="text-info" href="/collegeListByRegion.php?region=Addis Ababa">Collages in Addis Ababa</a> </li>
-      <li class="dropdown-item my-2"><a class="text-info" href="/collegeListByRegion.php?region=Hawassa">Collages in Hawassa</a> </li>
-      <li class="dropdown-item my-2"><a class="text-info" href="/collegeListByRegion.php?region=Gondar">Collages in Gonder</a> </li>
+      <li class="dropdown-item my-2"><a class="text-info" href="./collegeListByRegion.php?region=Addis Ababa">Collages in Addis Ababa</a> </li>
+      <li class="dropdown-item my-2"><a class="text-info" href="./collegeListByRegion.php?region=Oromia">Collages in Oromia</a> </li>
+      <li class="dropdown-item my-2"><a class="text-info" href="./collegeListByRegion.php?region=Amhara">Collages in Amhara</a> </li>
       </ul>
       </div>
 
       <!-- guidance -->
       <div class="col-sm-6 col-lg-3">
-      <p class="text-uppercase drop-header">guidance</p>
+      <p class="text-uppercase drop-header  mx-3">guidance</p>
       <hr class="text-black" >
 
       <ul class="list-unstyled ml-5">
@@ -90,21 +90,21 @@
 
       <!-- more resorces -->
       <div class="col-sm-6 col-lg-3">
-      <p class="text-uppercase drop-header">more resources</p>
+      <p class="text-uppercase drop-header  mx-3">Quick Links</p>
       <hr class="text-black" >
       <ul class="list-unstyled ml-5">
-      <li class="dropdown-item my-2"><a class="text-info" href="index.php">Downloads</a> </li>
+      <li class="dropdown-item my-2"><a class="text-info" href="inspire.php">Inspirational Advice</a> </li>
      
       </ul>
       </div>
 
       <div class="col-sm-6 col-lg-3">
-      <p class="text-uppercase drop-header">about</p>
+      <p class="text-uppercase drop-header  mx-3">about</p>
       <hr class="text-black" >
       <ul class="list-unstyled">
         
-        <li class="dropdown-item my-2"><a class="text-info" href="Service.php">About Us</a> </li>
-        <li class="dropdown-item my-2"><a class="text-info" href="index.php">Contact Us</a> </li>
+        <li class="dropdown-item my-2"><a class="text-info" href="about.php">About Us</a> </li>
+        <li class="dropdown-item my-2"><a class="text-info" href="contact.php">Contact Us</a> </li>
         <li class="dropdown-item my-2"><a class="text-info" href="blog.php">Our Blog</a> </li>
       </ul>
       </div>
@@ -143,9 +143,10 @@ echo "Logout";
   </a>
   
 </div>
+
       </div>
-    </nav>   
-      <hr class="text-black" >
+    </nav>
+     <hr class="text-black" >
 
       <div class="container  container_one px-5  py-5 my-5 mb-5 " data-aos="flip-up">
         <div class="row">

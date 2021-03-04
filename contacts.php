@@ -29,7 +29,7 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand mx-0 mr-auto " href="index.html"><img src="Assets/Images/logo.png" width="200px" alt=""></a>
+        <a class="navbar-brand mx-0 mr-auto " href="index.php"><img src="Assets/Images/logo.png" width="200px" alt=""></a>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mx-5 mb-lg-0" id="topUl">
             <!-- for the university -->
@@ -38,13 +38,13 @@
                 Universities
               </a>
               <ul class="dropdown-menu drop-down-links1" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item my-2" href="collegeList.html" target="_BLANK">University List</a></li>
-                <li><a class="dropdown-item my-2" href="collegeListPersonal.html">Your Personal List</a></li>
+                <li><a class="dropdown-item my-2" href="collegeList.php" target="_BLANK">University List</a></li>
+                <li><a class="dropdown-item my-2" href="collegeListPersonal.php">Your Personal List</a></li>
               </ul>
             </li>
             <!-- ends unuversity -->
             <li class="nav-item">
-              <a class="nav-link" href="#">Q & A</a>
+              <a class="nav-link" href="QA.php">Q & A</a>
             </li>
     
   <li class="nav-item dropdown menu-area d-none d-lg-block" id="megaMenu">
@@ -56,50 +56,49 @@
       <!-- collegues part -->
       <div class="row text-left mx-5 py-5  ">
       <div class="col-sm-6 col-lg-3" >
-      <p class="text-uppercase drop-header ">Find School</p>
+      <p class="text-uppercase drop-header mx-3 ">Find School</p>
       <hr class="text-black" >
-      <ul class="list-unstyled pl-0">
-        <li class="dropdown-item my-2"><a class="text-info" href="collegeList.html">Find school</a> </li>
-
-      <li class="dropdown-item my-2"><a class="text-info" href="./collegeListByEngineering.html"> Collages for Engineering</a> </li>
-      <li class="dropdown-item my-2"><a class="text-info" href="./collegeListByMedicine.html">Collages for  Medicine</a> </li>
-      <li class="dropdown-item my-2"><a class="text-info" href="./collegeListByBusiness.html">Collages for Business</a> </li>
-      <li class="dropdown-item my-2"><a class="text-info" href="/collegeListByRegion.html?region=Addis Ababa">Collages in Addis Ababa</a> </li>
-      <li class="dropdown-item my-2"><a class="text-info" href="/collegeListByRegion.html?region=Hawassa">Collages in Hawassa</a> </li>
-      <li class="dropdown-item my-2"><a class="text-info" href="/collegeListByRegion.html?region=Gondar">Collages in Gonder</a> </li>
+      <ul class="list-unstyled pl-0 ml-0">
+      <li class="dropdown-item my-2"><a class="text-info" href="CalculateChance.php">Calculate your chance</a> </li>
+      <li class="dropdown-item my-2"><a class="text-info" href="./collegeListByEngineering.php"> Collages for Engineering</a> </li>
+      <li class="dropdown-item my-2"><a class="text-info" href="./collegeListByMedicine.php">Collages for  Medicine</a> </li>
+      <li class="dropdown-item my-2"><a class="text-info" href="./collegeListByBusiness.php">Collages for Business</a> </li>
+      <li class="dropdown-item my-2"><a class="text-info" href="./collegeListByRegion.php?region=Addis Ababa">Collages in Addis Ababa</a> </li>
+      <li class="dropdown-item my-2"><a class="text-info" href="./collegeListByRegion.php?region=Oromia">Collages in Oromia</a> </li>
+      <li class="dropdown-item my-2"><a class="text-info" href="./collegeListByRegion.php?region=Amhara">Collages in Amhara</a> </li>
       </ul>
       </div>
 
       <!-- guidance -->
-      <div class="col-sm-6 col-lg-3".racial>
-      <p class="text-uppercase drop-header">guidance</p>
+      <div class="col-sm-6 col-lg-3">
+      <p class="text-uppercase drop-header  mx-3">guidance</p>
       <hr class="text-black" >
 
       <ul class="list-unstyled ml-5">
-        <li class="dropdown-item my-2"><a class="text-info" href="CalculateChance.html">Calculate your chance</a> </li>
-
+        <li class="dropdown-item my-2"><a class="text-info" href="collegeList.php">Find school</a> </li>
+        
         
       </ul>
       </div>
 
       <!-- more resorces -->
       <div class="col-sm-6 col-lg-3">
-      <p class="text-uppercase drop-header">more resources</p>
+      <p class="text-uppercase drop-header  mx-3">Quick Links</p>
       <hr class="text-black" >
       <ul class="list-unstyled ml-5">
-      <li class="dropdown-item my-2"><a class="text-info" href="index.html">Downloads</a> </li>
+      <li class="dropdown-item my-2"><a class="text-info" href="inspire.php">Inspirational Advice</a> </li>
      
       </ul>
       </div>
 
       <div class="col-sm-6 col-lg-3">
-      <p class="text-uppercase drop-header">about</p>
+      <p class="text-uppercase drop-header  mx-3">about</p>
       <hr class="text-black" >
       <ul class="list-unstyled">
         
-        <li class="dropdown-item my-2"><a class="text-info" href="about.html">About Us</a> </li>
-        <li class="dropdown-item my-2"><a class="text-info" href="contacts.html">Contact Us</a> </li>
-        <li class="dropdown-item my-2"><a class="text-info" href="blog.html">Our Blog</a> </li>
+        <li class="dropdown-item my-2"><a class="text-info" href="about.php">About Us</a> </li>
+        <li class="dropdown-item my-2"><a class="text-info" href="contact.php">Contact Us</a> </li>
+        <li class="dropdown-item my-2"><a class="text-info" href="blog.php">Our Blog</a> </li>
       </ul>
       </div>
       </div>
@@ -108,13 +107,39 @@
   </li>
           </ul>
         </div>
-        <div class="nav-item mx-2">
-          <a class="btn btn-outline-dark mx-0" id="loginBtn" href="#">Login</a>
-          
-        </div>
+        <img src="https://img.icons8.com/fluent/20/000000/person-male.png"/>
+
+        <div>
+
+<?php
+
+if(isset($_SESSION["email"])){
+echo $_SESSION["email"];
+}
+?>
+
+</div>
+<div class="nav-item mx-2">
+  
+  <a class="btn btn-outline-dark mx-0" id="loginBtn" href="indexMain.php? id=2">
+    
+<?php
+
+if(isset($_SESSION["email"])){
+echo "Logout";
+}
+
+?>
+
+
+  
+  </a>
+  
+</div>
+
       </div>
     </nav>
-    <hr class="text-black" >   
+   <hr class="text-black" >   
         <div class="contact">
             <div class="container-contact">
                 <div class="contact-pic">
